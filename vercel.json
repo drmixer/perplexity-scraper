@@ -2,7 +2,13 @@
   "version": 2,
   "functions": {
     "api/scrape.js": {
-      "runtime": "@vercel/nodejs@18.x" // OR "@vercel/nodejs@20.x"
+      "runtime": "@vercel/nodejs@18.x"
     }
-  }
+  },
+  "builds": [
+    {
+      "src": "api/scrape.js",
+      "use": "@vercel/node"
+    }
+  ]
 }
