@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/scrape.js": {
-      "runtime": "nodejs18.x" // This looks correct for your current setup
+      "runtime": "@vercel/nodejs@18.x" // Change from "nodejs18.x"
     }
   }
 }
