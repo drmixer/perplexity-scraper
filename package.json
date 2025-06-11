@@ -1,6 +1,7 @@
 {
   "name": "perplexity-scraper",
   "version": "1.0.0",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev"
