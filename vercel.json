@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/scrape.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs18.x" // This looks correct for your current setup
     }
   }
 }
